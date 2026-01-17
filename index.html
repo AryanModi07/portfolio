@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Modi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ✅ Loader (Upgrade 8) -->
+  <div id="loader">
+    <div class="loader-box">
+      <div class="spinner"></div>
+      <h2>Loading...</h2>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Aryan<span>.</span></div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="menu-btn" id="menuBtn">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content reveal">
+      <div class="badge">👋 Welcome to my Portfolio</div>
+
+      <h1>Hi, I'm <span>Aryan Modi</span></h1>
+      <h2>I am a <span id="typing"></span></h2>
+
+      <p>
+        I’m a <b>Web Developer</b> who uses <b>AI</b> and <b>problem-solving</b> to build modern,
+        responsive, and user-friendly websites using HTML, CSS, JavaScript, PHP & MySQL.
+      </p>
+
+      <div class="mini-info">
+        <span>⚡ AI Powered Development</span>
+        <span>🧠 Problem Solver</span>
+        <span>🚀 Responsive UI</span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+
+        <!-- ✅ Make CV button real: add resume.pdf in folder -->
+        <a href="resume.pdf" download class="btn small-btn">Download CV</a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" class="social" aria-label="GitHub">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/" target="_blank" class="social" aria-label="LinkedIn">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank" class="social" aria-label="Instagram">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image reveal">
+      <img src="images/darkman.jpg" alt="Aryan Profile" />
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2 class="section-title reveal">About Me</h2>
+
+    <div class="about-content reveal">
+      <p>
+        I'm <b>Aryan Modi</b>, a web developer passionate about building clean, modern and user-friendly websites.
+        I enjoy learning new technologies and creating real projects with professional UI.
+      </p>
+
+      <div class="about-cards">
+        <div class="about-card reveal">
+          <h3>Frontend</h3>
+          <p>Modern UI, responsive design, animations</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Backend</h3>
+          <p>PHP, MySQL database, authentication system</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Projects</h3>
+          <p>FOODZONE, Spotify Clone, Portfolio</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2 class="section-title reveal">Skills</h2>
+
+    <div class="skills-bars">
+      <div class="skill-box reveal">
+        <div class="skill-title">
+          <span>HTML</span><span>90%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" data-width="90%"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-title">
+          <span>CSS</span><span>80%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-title">
+          <span>JavaScript</span><span>65%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" data-width="65%"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-title">
+          <span>PHP</span><span>80%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-title">
+          <span>MySQL</span><span>75%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" data-width="75%"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-title">
+          <span>Bootstrap</span><span>75%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" data-width="75%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Services (Upgrade 2) -->
+  <section class="services" id="services">
+    <h2 class="section-title reveal">Services</h2>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <h3>🌐 Web Development</h3>
+        <p>I build modern, responsive, and fast websites with clean UI.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <h3>🎨 UI/UX Design</h3>
+        <p>I create professional layouts with smooth user experience.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <h3>⚙️ Backend Development</h3>
+        <p>I develop backend features using PHP & MySQL with secure login.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <h3>🚀 AI Assisted Projects</h3>
+        <p>I use AI + problem solving to build smart and efficient solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2 class="section-title reveal">Projects</h2>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <h3>FOODZONE</h3>
+        <p>Online food ordering system with login, cart, and order management.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span>
+        </div>
+        <div class="project-buttons">
+          <a href="#" class="btn small-btn">Live</a>
+          <a href="#" class="btn btn-outline small-btn">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <h3>Spotify Clone</h3>
+        <p>Music streaming UI with backend integration and playlist features.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JS</span><span>MySQL</span>
+        </div>
+        <div class="project-buttons">
+          <a href="#" class="btn small-btn">Live</a>
+          <a href="#" class="btn btn-outline small-btn">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio website with modern UI and animations.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="project-buttons">
+          <a href="#" class="btn small-btn">Live</a>
+          <a href="#" class="btn btn-outline small-btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Testimonials (Upgrade 6) -->
+  <section class="testimonials" id="testimonials">
+    <h2 class="section-title reveal">Testimonials</h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <p>“Aryan created a clean and modern website with a very professional UI.”</p>
+        <h4>— Client / Friend</h4>
+      </div>
+
+      <div class="testimonial-card reveal">
+        <p>“Fast work, responsive design, and excellent problem solving skills.”</p>
+        <h4>— Project Partner</h4>
+      </div>
+
+      <div class="testimonial-card reveal">
+        <p>“Great developer! Delivered the project with smooth design and good features.”</p>
+        <h4>— Reviewer</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="section-title reveal">Contact Me</h2>
+
+    <form class="contact-form reveal">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Aryan Modi | All Rights Reserved</p>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="topBtn" title="Go to top">⬆</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
